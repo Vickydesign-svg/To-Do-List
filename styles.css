@@ -1,0 +1,87 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  background: #fff;
+  margin-top: 50px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h2 {
+  color: #ff9900;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Todo list styling */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 15px;
+  background-color: rgb(252, 242, 228);
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+}
+.todo-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-list label {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todo-list input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Sub items */
+.sub-item {
+  list-style-type: square;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.sub-item-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: blue;
+}
+
+/* Link states */
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:focus {
+  outline: 2px solid green;
+  outline-offset: 2px;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: darkred;
+}
